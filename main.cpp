@@ -8,7 +8,7 @@ int main()		// header for main program function
 
 	float Ftemp;	// tempature for fahrenheit
 
-	cout << "Please enter the Fahrenheit tempature";	// tempature entered
+	cout << "Please enter the Fahrenheit tempature"; << endl;	// tempature entered
 	cin >> Ftemp;	// store value
 
 	float ctemp = (Ftemp - 32) * 5 / 9;		 // multiply values
